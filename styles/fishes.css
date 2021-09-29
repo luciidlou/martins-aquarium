@@ -1,0 +1,28 @@
+
+.title, .subtitle {
+    text-align: center;
+}
+.fishes {
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fish {
+    flex-basis: 30%;
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+.fish__name {
+    font-size: 24px;
+    /* flex: 3; */
+}
+.fish__img {
+    /* flex: 1; */
+}
+.fish__details {
+    /* flex: 3; */
+    padding: 10px;
+}

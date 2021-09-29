@@ -1,0 +1,10 @@
+.quotes {
+    text-align: center;
+}
+.quotes img {
+    padding: 20px;
+}
+.quote__harvesting, .quote__scuba {
+    padding: 0 0 20px 0; 
+}
+
