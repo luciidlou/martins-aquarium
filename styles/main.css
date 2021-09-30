@@ -9,6 +9,10 @@ img {
 /* * {
     border: 1px solid black;
 } */
+body {
+    background-color: cornflowerblue;
+    font-family: 'Montserrat', sans-serif;
+}
 .main {
     display: flex;
     flex-wrap: nowrap;
@@ -22,10 +26,6 @@ img {
     background-color:rgb(250, 166, 135);
     padding: 10px;
     height: fit-content;
-}
-body {
-    background-color:coral;
-    font-family: 'Montserrat', sans-serif;
 }
 .title {
     margin-bottom: 30px;
