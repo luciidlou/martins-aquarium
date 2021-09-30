@@ -19,9 +19,9 @@
     font-size: 24px;
     /* flex: 3; */
 }
-.fish__img {
-    /* flex: 1; */
-}
+/* .fish__img {
+    flex: 1;
+} */
 .fish__details {
     /* flex: 3; */
     padding: 10px;
