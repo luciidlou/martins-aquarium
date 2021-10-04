@@ -2,7 +2,7 @@
 .title, .subtitle {
     text-align: center;
 }
-.fishes {
+.fishList {
     text-align: center;
     justify-content: space-evenly;
     display: flex;
