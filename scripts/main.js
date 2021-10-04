@@ -10,8 +10,8 @@ for (const fish of allFish) {
     console.log(fish)
 };
 
-import { fishList } from "./scripts/fishList.js";
+import { fishList } from "./fishList.js";
 
-const parentHTMLElement = document.querySelector(".fish")
+const parentHTMLElement = document.querySelector(".fish-container")
 
 parentHTMLElement.innerHTML = fishList();
