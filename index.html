@@ -276,5 +276,9 @@
             </div>
         </aside>
     </div>
+    <!-- Designating main.js as type="module" allows you to utilize the import and export syntax. Note that main.js is the only file we need to 
+    load via a <script> tag. The import statements will cause a daisy-chain effect of sorts, causing any other imported modules to also be 
+    loaded and evaluated by the browser -->
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
