@@ -55,3 +55,15 @@ import { tipList } from "./tips/tipList.js";
 const parentTipElement = document.querySelector(".tip-container")
 
 parentTipElement.innerHTML = tipList();
+
+
+// FILTER FUNC IMPORTS
+
+import { mostHolyFish } from "./fish/filterFunc.js";
+
+const allHolyFish = mostHolyFish()
+
+console.log(allHolyFish)
+
+
+
