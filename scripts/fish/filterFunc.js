@@ -3,21 +3,26 @@ import { getFish } from "./database.js";
 
 export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
+    const fishArr = getFish()
+
     const holyFish = []
 
     const soldierFish = []
 
     const nonHolyFish = []
 
-    for (const fish of holyFish) {
+    for (const fish of fishArr) {
         if(fish.length % 3 === 0) {
-            holyFish.push(fish)
+            holyFish.push(fish.name)
         } else if (fish.length % 5 === 0) {
-            soldierFish.push(fish)
+            soldierFish.push(fish.name)
         } else {
-            nonHolyFish.push(fish)
+            nonHolyFish.push(fish.name)
         }
     }
+    console.log(holyFish)
+    console.log(soldierFish)
+    console.log(nonHolyFish)
 };
 
 // export const soldierFish = () => {

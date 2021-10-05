@@ -8,7 +8,7 @@ const database = {
             image: "https://www.aquariumofpacific.org/images/made_new/images-uploads-clownfish_400_q85.jpg",
             species: "Anenomefish",
             location: "Indian Ocean",
-            length: 3,
+            length: 6,
             diet: "Omnivore"
         },
         {
@@ -16,7 +16,7 @@ const database = {
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Taeniura_lymma2a.jpg/1200px-Taeniura_lymma2a.jpg",
             species: "Taeniura",
             location: "Pacific Coastline",
-            length: 13,
+            length: 12,
             diet: "Crustaceans / small fish"
         },
         {
@@ -24,7 +24,7 @@ const database = {
             image: "https://dtmag.com/wp-content/uploads/2019/06/mandarinfish-1050x700.jpg",
             species: "Synciropus",
             location: "Indonesia",
-            length: 3,
+            length: 15,
             diet: "worms, fish eggs, snails"
         },
         {
@@ -32,7 +32,7 @@ const database = {
             image: "https://media.istockphoto.com/photos/this-parrotfish-asks-the-underwater-photographer-for-a-portrait-i-picture-id1219191989?k=20&m=1219191989&s=612x612&w=0&h=Isa3WzLZ5G2ImWerM9BmMz8TPAVr3kIkfAKhog38py4=",
             species: "Guacamaia",
             location: "Atlantic Ocean",
-            length: 36,
+            length: 55,
             diet: "worms, fish eggs, snails"
         },
         {

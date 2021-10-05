@@ -59,11 +59,10 @@ parentTipElement.innerHTML = tipList();
 
 // FILTER FUNC IMPORTS
 
-import { mostHolyFish } from "./fish/filterFunc.js";
+// import { mostHolyFish } from "./fish/filterFunc.js";
 
-const allHolyFish = mostHolyFish()
+// mostHolyFish();
 
-console.log(allHolyFish)
 
 
 
